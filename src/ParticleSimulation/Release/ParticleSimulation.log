@@ -1,0 +1,58 @@
+﻿  stdafx.cpp
+  Glad.c
+  ParticleSimulation.cpp
+c:\users\russell\source\repos\particlesimulation\particlesimulation\Shader.h(93): warning C4101: 'infoLog': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\Shader.h(92): warning C4101: 'success': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\Shader.h(209): warning C4101: 'tessEval': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\Shader.h(211): warning C4101: 'infoLog': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\Shader.h(209): warning C4101: 'tessControl': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\Shader.h(210): warning C4101: 'success': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\camera.h(120): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\russell\source\repos\particlesimulation\particlesimulation\camera.h(121): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\russell\source\repos\particlesimulation\particlesimulation\camera.h(148): warning C4305: '-=': truncation from 'double' to 'float'
+ParticleSimulation.cpp(69): warning C4018: '<': signed/unsigned mismatch
+ParticleSimulation.cpp(71): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+ParticleSimulation.cpp(203): warning C4018: '<': signed/unsigned mismatch
+ParticleSimulation.cpp(205): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+ParticleSimulation.cpp(316): warning C4018: '<': signed/unsigned mismatch
+ParticleSimulation.cpp(470): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+ParticleSimulation.cpp(471): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+ParticleSimulation.cpp(475): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+ParticleSimulation.cpp(476): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+ParticleSimulation.cpp(478): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+ParticleSimulation.cpp(479): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+ParticleSimulation.cpp(481): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwSwapBuffers
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clCreateBuffer@24
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clEnqueueNDRangeKernel@36
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clBuildProgram@24
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwSetFramebufferSizeCallback
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwSwapInterval
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clCreateCommandQueue@20
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clFinish@4
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwGetKey
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clGetDeviceIDs@24
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwTerminate
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwPollEvents
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwInit
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clCreateContext@24
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clEnqueueReleaseGLObjects@24
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwSetWindowShouldClose
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwSetScrollCallback
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwCreateWindow
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwWindowHint
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwSetInputMode
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwMakeContextCurrent
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clGetPlatformIDs@12
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clEnqueueAcquireGLObjects@24
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clGetProgramBuildInfo@24
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clCreateFromGLBuffer@20
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clCreateKernel@12
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwGetProcAddress
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwSetCursorPosCallback
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clEnqueueUnmapMemObject@24
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clCreateProgramWithSource@20
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clSetKernelArg@16
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _glfwWindowShouldClose
+ParticleSimulation.obj : error LNK2001: unresolved external symbol _clEnqueueMapBuffer@44
+C:\Users\Russell\source\repos\ParticleSimulation\Release\ParticleSimulation.exe : fatal error LNK1120: 33 unresolved externals

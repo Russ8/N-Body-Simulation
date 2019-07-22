@@ -1,0 +1,38 @@
+﻿  Glad.c
+  ParticleSimulation.cpp
+c:\users\russell\source\repos\particlesimulation\particlesimulation\shader.h(93): warning C4101: 'infoLog': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\shader.h(92): warning C4101: 'success': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\shader.h(209): warning C4101: 'tessEval': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\shader.h(211): warning C4101: 'infoLog': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\shader.h(209): warning C4101: 'tessControl': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\shader.h(210): warning C4101: 'success': unreferenced local variable
+c:\users\russell\source\repos\particlesimulation\particlesimulation\camera.h(119): warning C4305: '-=': truncation from 'double' to 'float'
+ParticleSimulation.obj : error LNK2019: unresolved external symbol __imp__wglGetCurrentContext@0 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol __imp__wglGetCurrentDC@0 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwInit referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwTerminate referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwWindowHint referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwCreateWindow referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwWindowShouldClose referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwSetWindowShouldClose referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z)
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwSetFramebufferSizeCallback referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwPollEvents referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwGetKey referenced in function "void __cdecl processInput(struct GLFWwindow *)" (?processInput@@YAXPAUGLFWwindow@@@Z)
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwSetCursorPosCallback referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwSetScrollCallback referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwMakeContextCurrent referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwSwapBuffers referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwSwapInterval referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _glfwGetProcAddress referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clGetPlatformIDs@12 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clGetDeviceIDs@24 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clCreateContext@24 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clCreateBuffer@24 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clCreateProgramWithSource@20 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clBuildProgram@24 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clGetProgramBuildInfo@24 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clCreateKernel@12 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clSetKernelArg@16 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clEnqueueMapBuffer@44 referenced in function _main
+ParticleSimulation.obj : error LNK2019: unresolved external symbol _clCreateCommandQueue@20 referenced in function _main
+C:\Users\Russell\source\repos\ParticleSimulation\Debug\ParticleSimulation.exe : fatal error LNK1120: 28 unresolved externals
